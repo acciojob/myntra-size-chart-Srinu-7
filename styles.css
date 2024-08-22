@@ -1,2 +1,30 @@
+*{
+	/* margin:0px; */
+	/* padding:0px; */
+}
+#table{
+	width:100%;
+	border-collapse:collapse;
+}
+#table>thead,tbody>tr>th{
+	text-align:left;
+}
+#table>tbody>tr>td{
+	text-align:right;
+}
+#table>thead>tr{
+	background-color:#bf504e;
+	color:white;
+}
+#table>tbody>tr:nth-child(1) {
+	background-color: #da9695;
+	color:white;
+}
 
-/* Your CSS Code here. */
+#table>tbody>tr:nth-child(2) {
+	background-color: rgba(241, 220, 219, 1);
+}
+
+#table>tbody>tr:nth-child(3) {
+	background-color:#d9d9d9;
+}
